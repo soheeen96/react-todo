@@ -71,12 +71,12 @@ function ToDo({ text, category, id }: IToDo) {
       <BtnWrap>
         {category !== Categories.DOING && (
           <button name={Categories.DOING} onClick={onClick}>
-            할 일
+            진행 중
           </button>
         )}
         {category !== Categories.TO_DO && (
           <button name={Categories.TO_DO} onClick={onClick}>
-            진행중
+            할 일
           </button>
         )}
         {category !== Categories.DONE && (
