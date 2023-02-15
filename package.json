@@ -1,5 +1,4 @@
 {
-  "homepage": "https://soheeen96.github.io/react-ToDo-project/",
   "name": "react-todo-app",
   "version": "0.1.0",
   "private": true,
@@ -51,5 +50,6 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26"
-  }
+  },
+  "homepage": "https://soheeen96.github.io/react-ToDo-project/"
 }
